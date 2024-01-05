@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact page</title>
+    <style>
+        .input-container{
+            display: flex;
+            justify-content: center;   
+        }
+
+        .email-container{
+            display: flex;
+            justify-content: center;
+        }
+        .text-container{
+            display: flex;
+            justify-content: center;
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        
+
+        
+    </style>
+
+
+
+
 </head>
 <body>
-    <h1>Contact Us</h1>
-
-
+    <h1 style="color: black; text-align: center; font-style: italic;">
+        <i>HUSNAIN'S Cuisine</i>
+        </h1>
+        <hr>
     <div style="text-align: center;">
         <a href="http://127.0.0.1:5500/index.html">Home</a> 
         <a href="http://127.0.0.1:5500/Manu.html">Manu</a>
@@ -16,6 +44,45 @@
         <a href="http://127.0.0.1:5500/Timing.html">Timing</a>
         <a href="http://127.0.0.1:5500/Contact.html">Contact</a>
            </div>
+           <hr>
+
+           <h3 style="text-align: center;">Contact Us</h3>
+
+           <div class="input-container">
+            <div>
+                Name <input type="email" name="name " id="name">
+            </div>
+           </div>
+           <br>
+
+           <div class="email-container">
+            <div>
+                Email <input type="email" name="email" id="email">
+            </div>
+           </div>
+           <br>
+           <div class="text-container">
+            <div>
+                <textarea name="textarea" id="textarea" cols="30" rows="10">Enter you message here</textarea>
+            </div>
+           </div>
+           <div class="button-container">
+            <button>
+                Send Message
+            </button>
+           </div>
+           <hr>
+
+           <h4 style="text-align: center;">Copyright @ 2024 Husnain's Cuisine</h4>
+
+
+
+
+
+
+
+
+
     
 </body>
 </html>
