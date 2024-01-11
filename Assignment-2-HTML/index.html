@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2-Form</title>
+    <style>
+       .Student{
+        color: brown;
+        border-bottom: 2px solid brown;
+        display: inline-block;
+        position: relative;
+        left: 65%;
+       } 
+       .input1{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 11%;
+       }
+       .email{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 11%;
+       }
+       .mobile{
+        width: 50%;
+        padding: 9px;
+        position: relative;
+        left: 13%;
+       }
+       .gender{
+        position: relative;
+        left: 16%;
+        padding-top: 3px;
+       }
+       .Date{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 10%;
+       }
+       #Adress{
+        width: 53%;
+        position: relative;
+        left: 16%;
+       }
+       #City{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 15%;
+       }
+       .area{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 13%;
+       }
+       .state{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 15%;
+       }
+       .qaulification{
+        position: relative;
+        left: 10%;
+       }
+       .select{
+        position: relative;
+        left: 10%;
+       }
+       .tele{
+        position: relative;
+        left: 13%;
+       }
+       
+
+
+
+       #password{
+        width: 50%;
+        padding: 8px;
+        position: relative;
+        left: 12%;
+       }
+
+    </style>
+</head>
+<body>
+    <h3 class="Student">Student Registration Form</h3>
+    <br>
+    <form action="">
+    <div class="input-container">
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" placeholder="Enter your first name" class="input1"><br>
+    <br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name" class="input1">
+    <br>
+    <br>
+    <label for="email">Email num:</label>
+    <input type="text" name="email" id="email" placeholder="it should contain @" class="email"><br>
+    <br>
+    <label for="mobile">Mobile</label>
+    <input type="text" name="mobile" id="mobile" placeholder="only 10 digits are allowed" class="mobile">
+    <br>
+    
+    <label for="male">Gender</label>
+    <input type="radio" name="gender" id="male" class="gender">
+    <label for="male" class="gender">Male</label>
+    <input type="radio" name="gender" id="female" class="gender">
+    <label for="female" class="gender">female</label>
+    <br>
+    <br>
+    <label for="birth">Date of Birth:</label>
+    <input type="date" name="birth" id="birth" class="Date">
+    <br>
+    <label for="Adress">Adress</label><br>
+    <textarea name="textarea" id="Adress" cols="30" rows="12"></textarea>
+    </div>
+    <br>
+    <label for="City">City:</label>
+    <input type="text" id="City" name="City"><br>
+     <br>
+    <label for="Area PIN">Area PIN</label>
+    <input type="text" name="Area PIN" id="Area PIN" class="area">
+    <br>
+    <br>
+    <label for="state">State</label>
+    <input type="text" name="State" id="state" class="state">
+    <br>
+     <br>
+     <label for="Qualificaton">Qualification</label>
+    <select name="Qualification" id="Qualification" class="select">
+        <option value="Matric">Matric</option>
+        <option value="Inter">Inter</option>
+        <option value="Graduated">Graduated</option>
+    </select>
+     <br>
+     <br>
+     <p>Specialization :</p>
+     <input type="checkbox" name="Computer" id="Computer" value="Computer Science" class="tele">
+     <label for="Computer" class="tele">Computer Science</label>
+     <br>
+     <input type="checkbox" name="information Technology" id="information" value="Information Technology" class="tele">
+     <label for="information" class="tele">Information Technology</label><br>
+
+     <input type="checkbox" name="computer Architecture" id="computer Architecture" value="computer Architecture" class="tele">
+     <label for="computer Architecture" class="tele">Computer Architecture</label><br>
+     <input type="checkbox" name="Tele Communition" id="Tele Communication" value="Tele Communication" class="tele">
+     <label for="Tele Communication" class="tele">Tele Communication</label>
+     <br>
+
+
+     <label for="password">Password</label>
+
+     <input type="password" name="password" id="password" placeholder="Password">
+       <br>
+       <br>
+     <button style="background-color: green; height: 40px;">Registered</button>
+
+     
+
+
+     
+    
+     </form>    
+
+    
+</body>
+</html>
