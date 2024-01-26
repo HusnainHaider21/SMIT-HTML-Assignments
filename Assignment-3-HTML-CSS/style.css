@@ -43,6 +43,7 @@ i{
 }
 
 .border:hover{
+    background-color: red;
     border: 1.5px solid orange;
 
 }
