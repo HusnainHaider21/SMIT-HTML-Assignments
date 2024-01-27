@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.full-page{
+body{
     width: 100%;
-    height: 800px;
+    height: 100%;
     background-image: url("photos/background.jpeg");
     background-size: cover;
     border-radius: 10px;  
@@ -13,8 +13,7 @@
     height: 50px;
     width: 100%;
     border-radius: 8px;
-    margin-top: 2px;
-    background-color: black;
+    background-color: brown;
     
 }
 .nav-container{
@@ -43,21 +42,22 @@ i{
 }
 
 .border:hover{
-    background-color: red;
     border: 1.5px solid orange;
-
 }
+
+
+
 .hus{
     
     font-size: 24px;
     margin-right: 3px;
-    background-color: rgba(255, 204, 0, 0.865);
-    border-radius: 5px;
+    background-color: brown
 }
 input{
     padding: 5px;
     border-radius: 4px;
     width: 300px;
+    
 }
 /** Content Area**/
 main{
@@ -84,12 +84,52 @@ button{
 
 footer{
     border-top: 2px solid gainsboro;
+    margin-top: 90px;
+    background-color: brown;
+
 }
 h4{
     margin-top: 10px;
     color: gainsboro;
 }
 /** Menu **/
+/** shop-section **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.box{
+    height: 350px;
+    width: 30%;
+  /* border: 2px solid brown; */
+    margin-top: 50px;
+    background-color: brown;
+    
+}
+.box h2 {
+    text-align: center;
+    height: 100%;
+}
+
+.box-img{
+      height: 330px;
+    background-size: cover;
+}
+.box p{
+    text-align: center;
+    background-color: brown; 
+}
+
+.menu{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    
+}
 
 
 
