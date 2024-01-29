@@ -85,7 +85,7 @@ button{
 footer{
     height: 120px;
     border-top: 2px solid gainsboro;
-    margin-top: 90px;
+    margin-top: 120px;
     background-color: brown;
 
 }
@@ -147,7 +147,7 @@ h4{
 
 .Timing-section{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .Time{
     display: flex;
