@@ -143,6 +143,21 @@ h4{
 
     margin-top: 10px;
 }
+/** Timging Page**/
+
+.Timing-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.Time{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+table,th,td{
+    border:  2px solid brown;
+    background-color: brown;
+}
 
 
 
