@@ -159,6 +159,20 @@ table,th,td{
     background-color: brown;
 }
 
+/** Contact Page **/
+
+    .Contact-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+    textarea{
+        margin-left: 40px;
+        width: 100%;
+        text-align: left;
+    }
+
 
 
 
