@@ -1,5 +1,6 @@
 *{
     padding: 0;
+
 }
 
 
@@ -7,6 +8,7 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
+    height: 60px;
 }
 .img{
     display: flex;
@@ -63,6 +65,10 @@
     margin-top: 10px;
     border: 2px solid;
 }
+
+.fruit-img{
+    margin-top: 20px;
+}
   
 
 .box:hover{
@@ -88,7 +94,6 @@
 .service-img2{
     width: 30%;
     height: 300px;
-    
 }
 
 .service-img3{
@@ -98,6 +103,13 @@
 }
 .button{
     color: white;
+}
+
+/** hero **/
+
+.hero-data{
+      margin-top: 50px;
+      margin-left: 70px;
 }
 
 
