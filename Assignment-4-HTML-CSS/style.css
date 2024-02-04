@@ -122,4 +122,15 @@
 }
 
 
- 
+ /** contact-section **/
+
+.contact-section{
+    display: flex;
+}
+
+
+ .contact-data input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 70%;
+ }
