@@ -107,12 +107,19 @@
 
 /** hero **/
 
+.hero-section{
+    display: flex;
+}
+
+
 .hero-data{
       margin-top: 50px;
       margin-left: 70px;
 }
 
-
+.hero-img{
+    margin-top: 50px;
+}
 
 
  
